@@ -1,0 +1,21 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  gap: 1em;
+  text-align: center;
+  background-color: #64B6AC;
+  padding: 2em;
+  border-radius: 2em;
+}
+
+label, input {
+  font-size: 1.5em;
+}
+
+button {
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+}
